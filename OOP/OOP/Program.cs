@@ -13,12 +13,12 @@
         // Constructor
         public Eevee(string name, string type, int hp, int attack, int defense, int speed)
         {
-            Name = name;
-            Type = type;
-            HP = hp;
-            Attack = attack;
-            Defense = defense;
-            Speed = speed;
+            this.Name = name;
+            this.Type = type;
+            this.HP = hp;
+            this.Attack = attack;
+            this.Defense = defense;
+            this.Speed = speed;
         }
 
         // Method to make a characteristic sound
